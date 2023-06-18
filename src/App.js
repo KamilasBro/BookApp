@@ -18,7 +18,6 @@ export default function App() {
     pages:"",
     image:""
   })
-  //
   function handleSearch(){
     //we receive value from the input and them trim it
     // trim method will remove all empty spaces in the string value
