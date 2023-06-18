@@ -1,0 +1,162 @@
+.breadcrumb{
+    position: fixed;
+
+    margin-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 25px;
+  
+    width: 100%;
+
+    color: #434343;
+    font-weight: 600;
+    font-size: 32px;
+
+    background-color: white;
+  }
+  .breadcrumb span{
+    cursor: pointer;
+    
+    transition: 300ms;
+  
+    text-decoration: underline;
+    letter-spacing: 2px;
+  }
+  .breadcrumb span:hover{
+    color: #58a6ca;
+  }
+  table, th, td {
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-collapse: collapse;
+  }
+  table{
+    margin-top: 250px;
+  
+    width: 1220px;
+  
+    background: #FDFDFD;
+  
+  }
+  th{
+    text-align: left;
+
+    padding: 15px;
+  
+    font-weight: 700;
+    font-size: 24px;
+  }
+  td{
+    padding: 15px;
+
+    font-weight: 500;
+    font-size: 18px;
+    color: #434343;
+  }
+  tr{
+    transition: 300ms;
+  }
+  td span{
+   cursor: pointer;
+  
+   transition: 300ms;
+  }
+  tr:hover{
+    background-color: #F0F0F0;
+  }
+  .head-tr:hover{
+    background-color: transparent;
+  }
+  td span:hover{
+    color: #58a6ca;
+  }
+@media (max-width: 1440px) {
+  .breadcrumb{
+    margin-top: 75px;
+
+    font-size: 24px;
+  }
+  table{
+    margin-top: 200px;
+  
+    width: 920px;
+  }
+  th{
+    padding: 10px;
+
+    font-size: 20px;
+  }
+  td{
+    padding: 10px;
+
+    font-size: 15px;
+  }
+  
+}
+@media (max-width: 1024px) {
+  .breadcrumb{
+    margin-top: 60px;
+
+    font-size: 22px;
+  }
+  table{
+    margin-top: 200px;
+  
+    width: 750px;
+  }
+  th{
+    padding: 10px;
+
+    font-size: 18px;
+  }
+  td{
+    padding: 10px;
+
+    font-size: 13px;
+  }
+  
+}
+@media (max-width: 800px) {
+  .breadcrumb{
+    margin-top: 40px;
+
+    font-size: 19px;
+  }
+  table{
+    margin-top: 150px;
+  
+    width: 575px;
+  }
+  th{
+    padding: 8px;
+
+    font-size: 16px;
+  }
+  td{
+    padding: 8px;
+
+    font-size: 12px;
+  }
+  
+}
+@media (max-width: 600px) {
+  .breadcrumb{
+    margin-top: 30px;
+    padding-bottom: 5px;
+    font-size: 18px;
+  }
+  table{
+    margin-top: 130px;
+  
+    width: 310px;
+  }
+  th{
+    padding: 2px;
+
+    font-size: 12px;
+  }
+  td{
+    padding: 2px;
+
+    font-size: 10px;
+  }
+  
+}

@@ -1,13 +1,19 @@
+@import "./css/navbar.css";
+@import "./css/table.css";
+@import "./css/book.css";
+html{
+  -webkit-tap-highlight-color: transparent;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'Lato', sans-serif;
+
+  overflow-x: hidden;
+}
+main{
+  display: flex;
+  justify-content: center;
+
+  width: 100vw;
 }
