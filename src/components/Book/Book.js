@@ -1,5 +1,7 @@
-import closeIcon from "../images/closeIcon.png"
-import placeholder from "../images/placeholder.png"
+import closeIcon from "../../images/closeIcon.png"
+import placeholder from "../../images/placeholder.png"
+
+import "./book.css"
 export default function Book(props){
     // when the book section is visible to user we prevent him from scrolling
     document.querySelector("html").style.overflowY="hidden"

@@ -1,5 +1,5 @@
-import Table from "./components/Table"
-import Book from "./components/Book"
+import Table from "./components/Table/Table"
+import Book from "./components/Book/Book"
 import searchImg from "./images/searchIcon.png"
 import React,{useState} from "react"
 export default function App() {

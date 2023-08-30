@@ -1,4 +1,5 @@
 import React,{useState, useEffect} from "react";
+import "./table.css"
 export default function Table(props){
     //the whole app is builded on google books API 
     //unfortunetelly it is not ideal, it have it's flaws
