@@ -12,4 +12,5 @@ However, when the value is equal to "none" user can't interact with it
 # About the project
 
 The appereance is really simple, It obviously should be better (table resize during fetching, load animation etc...) if that would be commercial project, but for this purpose, it is enough.
-
+# Preview
+https://bookapp-siema.netlify.app/
